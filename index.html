@@ -6,6 +6,7 @@
 <title>Votre Projet - Les Green Kids</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 <style>
+/* Style rigoureusement identique au modèle de référence */
 * { box-sizing: border-box; }
 body {
 margin: 0;
@@ -31,9 +32,13 @@ section {
 padding: 50px 20px;
 max-width: 1000px;
 margin: auto;
+border-bottom: 1px solid #eee;
 }
 h3 {
 color: #ff725e;
+font-size: 1.5em;
+border-left: 5px solid #ff725e;
+padding-left: 15px;
 }
 .odd {
 background-color: #1a5e20;
@@ -54,18 +59,43 @@ max-width: 100%;
 border-radius: 10px;
 box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 margin-top: 10px;
+background: #f9f9f9;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 .photo-container {
 text-align: center;
 margin-bottom: 20px;
+}
+.placeholder-img {
+width: 100%;
+height: 200px;
+background: #eee;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 2px dashed #ccc;
+color: #999;
+border-radius: 10px;
+margin-top: 10px;
+text-align: center;
+padding: 10px;
+}
+footer {
+background: #333;
+color: white;
+text-align: center;
+padding: 20px;
+margin-top: 50px;
 }
 </style>
 </head>
 <body>
 
 <header>
-<h1>Votre Projet</h1>
-<h2>Un projet de l'équipe Les Green Kids - collège jean vigo</h2>
+<h1>Les Green Kids</h1>
+<h2>Un projet de l'équipe Les Green Kids - Collège Jean Vigo</h2>
 </header>
 
 <section>
@@ -84,18 +114,17 @@ margin-bottom: 20px;
 <li>Ne pas interrompre</li>
 <li>Ne pas écarter une personne du groupe</li>
 <li>Coopération</li>
-<li>Tout le groupe doit participé</li>
+<li>Tout le groupe doit participer</li>
 </ul>
 </div>
 
 <div id="roles_groupe" style="margin-top: 20px;">
 <h4>Nos rôles (Construction de la boîte) :</h4>
 <ul>
-<li>Tâches réparties entre les membres de l'équipe.</li>
+<li><strong>Répartition :</strong> Les tâches sont réparties équitablement entre tous les membres de l'équipe.</li>
 </ul>
 </div>
-
-<p style="margin-top: 20px;">✅ Charte et Boîte à outils validées ! 🌟</p>
+<p>✅ Charte et Boîte à outils validées ! 🌟</p>
 </section>
 
 <section>
@@ -106,8 +135,8 @@ margin-bottom: 20px;
 
 <div class="photo-container" style="margin-top: 30px;">
 <h4>😈 Notre Anti-Projet (Le pire projet possible)</h4>
-<img src="[URL_PHOTO_ANTIPROJET_TRANSFORMEE_PAR_LE_BOT]" alt="Maquette Anti-Projet">
-<p><em>""[Script de présentation de l'anti-projet]""</em></p>
+<div class="placeholder-img">[Photo Maquette Anti-Projet]</div>
+<p><em>"[Script de présentation de l'anti-projet]"</em></p>
 </div>
 
 <div id="idees_initiales" style="margin-top: 20px;">
@@ -121,7 +150,6 @@ margin-bottom: 20px;
 
 <section>
 <h3>Étape 2 - Concevoir : Définir et Maquetter</h3>
-
 <div class="odd">
 <h4>💡 Notre Projet : [Nom du Projet]</h4>
 <p><strong>QUI (Bénéficiaires) :</strong> [Réponse Action 2.4]</p>
@@ -132,15 +160,15 @@ margin-bottom: 20px;
 <div style="display: flex; justify-content: space-around; margin-top: 20px; flex-wrap: wrap;">
 <div style="flex: 1; min-width: 300px; padding: 10px;">
 <h4>Maquette d'étude (1:20)</h4>
-<img src="[URL_PHOTO_1_20_TRANSFORMEE_PAR_LE_BOT]" alt="Maquette 1:20">
+<div class="placeholder-img">[Photo Maquette 1:20]</div>
 </div>
 <div style="flex: 1; min-width: 300px; padding: 10px;">
 <h4>Maquette Structure (1:5)</h4>
-<img src="[URL_PHOTO_1_5_TRANSFORMEE_PAR_LE_BOT]" alt="Maquette 1:5">
+<div class="placeholder-img">[Photo Maquette 1:5]</div>
 </div>
 </div>
 
-<div id="plan_montage" style="margin-top: 20px;">
+<div id="plan_montage" style="margin-top: 20px; padding: 15px; border-left: 5px solid #1a5e20; background-color: #f0f4f0;">
 <h4>🛠️ Plan de Montage</h4>
 <ul>
 <li>[Étapes de montage fournies par l'utilisateur]</li>
@@ -153,13 +181,12 @@ margin-bottom: 20px;
 <div class="photo-container">
 <h4>🏗️ Notre Réalisation Finale</h4>
 <p><strong>Notre ressenti :</strong> [Sentiment exprimé par l'utilisateur]</p>
-<img src="[URL_TRANSFORMEE_PAR_LE_BOT]" alt="Photo du prototype final">
+<div class="placeholder-img">[Photo du Prototype Final]</div>
 </div>
 </section>
 
 <section>
 <h3>Étape 4 - Planifier & Présenter</h3>
-
 <div class="business">
 <h4>💼 Business Plan & Impacts</h4>
 <ul>
@@ -168,39 +195,34 @@ margin-bottom: 20px;
 <li><strong>Impacts (ODD & Inclusivité) :</strong> [Réponse Impacts]</li>
 </ul>
 </div>
-
 <div style="margin-top: 20px; padding: 15px; border-left: 5px solid #ff725e; background-color: #f9f9f9;">
 <h4>🎤 Pitch de l'Ascenseur</h4>
-<p><em>""[Script du Pitch fourni]""</em></p>
+<p><em>"[Script du Pitch fourni]"</em></p>
 </div>
-
-<div class="photo-container">
-<img src="[URL_PHOTO_PITCH_TRANSFORMEE_PAR_LE_BOT]" alt="Préparation du pitch">
-<p>Préparation de la présentation</p>
+<div class="photo-container" style="margin-top: 20px;">
+<div class="placeholder-img">[Photo Préparation Présentation]</div>
 </div>
 </section>
 
 <section>
 <h3>Étape 5 - Convaincre : Éloquence & Product Box</h3>
-
 <div class="photo-container">
 <h4>🎤 Atelier Éloquence</h4>
 <p>Travail sur la voix et la posture</p>
-<img src="[URL_PHOTO_ELOQUENCE_TRANSFORMEE_PAR_LE_BOT]" alt="Atelier Éloquence">
+<div class="placeholder-img">[Photo Atelier Éloquence]</div>
 </div>
-
 <div class="odd" style="text-align: center;">
 <h4>📦 Notre Product Box</h4>
-<h5 style="font-size: 1.2em; margin: 10px 0;">""[Slogan fourni]""</h5>
-<p><strong>Les 3 bénéfices clés :</strong><br> [Réponse Bénéfices]</p>
-<img src="[URL_PHOTO_PRODUCTBOX_TRANSFORMEE_PAR_LE_BOT]" alt="Product Box">
+<h5 style="font-size: 1.2em; margin: 10px 0;">"[Slogan fourni]"</h5>
+<p><strong>Les 3 bénéfices clés :</strong> [Réponse Bénéfices]</p>
+<div class="placeholder-img">[Photo Product Box]</div>
 </div>
-
 <p style="margin-top: 30px; font-size: 1.2em; text-align: center;">🚀 <strong>Nous sommes prêts pour la FINALE !</strong> 🚀</p>
 </section>
 
 <footer>
-<p>Projet réalisé au Collège Jean Vigo - Les Green Kids © 2025</p>
+<p>Projet réalisé au Collège Jean Vigo - Les Green Kids © 2026</p>
 </footer>
+
 </body>
 </html>
